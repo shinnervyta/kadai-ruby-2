@@ -1,13 +1,13 @@
-# fizzbuzzの関数を定義
+# fizzbuzzの関数を定義 return省略して記載
 def fizzbuzz(num)
   if num % 3 == 0 and num % 5 ==0
-    print 'FizzBuzz'
+    'FizzBuzz'
   elsif num % 5 == 0
-    print 'Buzz'
+     'Buzz'
   elsif num % 3 == 0
-    print 'Fizz'
+     'Fizz'
   else
-    print num.to_s
+     num.to_s
   end
 
 end
